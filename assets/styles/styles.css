@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: #252b42; */
+  
+}
+
+.body {
+  font-family: Montserrat;
+}
+
+.main-header-container {
+  width: 100%;
+  background-color: #252b42;
+  height: 90vh;
+  color: #fff;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #252b42;
+  height: 30px;
+  padding: 25px;
+
+}
+
+.brandname {
+  font-weight: 700;
+  font-size: 21px;
+  color: #fff;
+  letter-spacing: 0.07px;
+  word-wrap: break-word;
+}
+
+.header-icons {
+  color: #fff;
+}
+
+.hppc-wrapper {
+  text-align: center;
+  margin: 10px;
+}
+
+.header-txt {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 15vh 15vh 3vh 5vh 2vh;
+  row-gap: 10px;
+  width: 100%;
+}
