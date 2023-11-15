@@ -2,13 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #252b42;
-  color: #fff;
+  /* background-color: #252b42; */
+  /* color: #fff; */
   
 }
 
 .body {
   font-family: Montserrat;
+  /* background-color: #252b42; */
 }
 
 .main-header-container {
@@ -49,7 +50,7 @@
 
 .header-txt {
   text-align: center;
-  width: 100%;
+  width: 320;
 }
 
 .get-quote {
@@ -63,6 +64,7 @@
   gap: 20px;
   font-weight: 700;
   font-size: larger;
+  color: #fff;
 }
 
 .learn-more {
@@ -70,48 +72,395 @@
   border-radius: 20px;
   width: 125px;
   height: 30px;
+  background-color: #252b42;
+  color: #fff;
+}
+
+.blue-resizer {
+  color: #fff;
 }
 
 .features-4 {
-  height: 416px;
-  width: 100%;
-  text-align: center;
+  color: #fff;
+  margin: auto;
+  height:790px;
+  width: 320px;
   display: grid;
-  padding: 20px;
+  padding: 25px;
+  text-align: center;
+  background-color: #252b42;
+  /* background-color: #fff; */
 }
 
 .feature4-container1 {
-  gap: 10px;
+  gap: 5px;
+  margin-bottom: 15px;
 }
 
 .txt-h2 {
-  padding-bottom: 20px;
+  padding-bottom: 5px;
+  font-size:40px;
+  text-align: left;
+
+}
+
+.txt-p2 {
+  font-size: small;
+  text-align: left;
+  padding-bottom: 10px;
 }
 
 .feature4-container2 {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
-  row-gap: 10px;
-  /* width: 320px; */
-  
+  row-gap: 5px;
+  color: #252b42;
+  /* background-color: #252b42; */
 }
 
 .feature4-container3 {
   display: flex;
   flex-flow:column;
   gap: 5px;
+  margin-top: 5px;
+  text-align: left;
 }
 
 .resizer1 {
-  /* background-color: #e6e6e6; */
-  display: inline-flex;
+  display: flex;
+  padding: 10px;
   gap: 50px;
+  background-color: #fff;
+  width: 100%;
 }
 
-.blue-resizer {
-  position: relative;
-  width: 40px;
+.txt-resizer {
+  background-color: #fff;
+}
+
+.icon-resizer1 {
+  width: 30px;
   height: 30px;
+  padding: 8px;
   border-radius: 50px;
   background-color: #23A6F0;
+}
+
+.testimonials {
+  background-color: #252b42;
+  height: 550px;
+  width: 320px;
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
+
+.txt-h22 {
+  padding-bottom: 5px;
+  font-size:40px;
+  padding-bottom: 20px;
+}
+
+.txt-p22 {
+  font-size: small;
+  padding-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.card-row2 {
+  background-color: #fff;
+}
+
+.card-txt {
+  color: #fff;
+}
+
+.testimonial-row2 {
+  /* padding: auto; */
+  /* background-color: #fff; */
+  /* height: 401px; */
+  /* color: #fff; */
+
+}
+
+.selfie-img {
+  width: 100px;
+  height:100px;
+  border-radius: 50px;
+  margin: 10px
+}
+
+.card-txt {
+  color: #000;
+}
+
+.card-star {
+  padding: 10px;
+  color: #f3cd03;
+  font-size: x-large;
+}
+
+.name-1 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+.name-designer {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.faq1 {
+  background-color: #252b42;
+  height: 600px;
+  width: 320px;
+  margin: auto;
+  padding: 25px;
+  color: #fff;
+}
+
+.faq {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.faq-p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.faq1-row1 {
+  display: flex;
+  gap: 20px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 60px;
+  width: 250px;
+  line-height: 1;
+}
+
+.faq-h5 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+
+.faq1-div-container2 {
+  display: grid;
+  row-gap: 10px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.faq1-arrow {
+  color: #23A6F0;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.pricing-3 {
+  background-color: #252b42;
+  height: 1824px;
+  width: 320px;
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+}
+
+.pricing-wrapper {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.pricing-3-row1 {
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
+.icon-pricing {
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  background-color: #23A6F0;
+  border-radius: 50px;
+  padding: 15px;
+  font-size: xx-large;
+  margin: auto;
+}
+
+.pricing-h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.pricing-p {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 15px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding: 15px;
+}
+
+.pricing-style {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  background-color: #fff;
+  width: 260px;
+  height: 450px;
+  text-align: center;
+  margin: auto;
+}
+
+.per-month {
+  display: inline-flex;
+  /* line-height: px; */
+  text-align: center;
+  margin: auto;
+}
+
+.free {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+.app-by.hand {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+.free-try {
+  background-color: #23A6F0;
+  border: none;
+  width: 260px;
+  height: 45px;
+  border-radius: 5px;
+  font-size: large;
+  color: #fff;
+}
+
+.amount {
+  font-size: xx-large;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing-style1 {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  background-color: #23A6F0;
+  width: 260px;
+  height: 560px;
+  text-align: center;
+  margin: auto;
+}
+.free-try1 {
+  background-color: #fff;
+  border: none;
+  width: 260px;
+  height: 45px;
+  border-radius: 5px;
+  font-size: large;
+  color: #000;
+}
+
+.pricing-style2 {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  background-color: #fff;
+  width: 260px;
+  height: 456px;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-1 {
+  background-color: #252b42;
+  height: 300px;
+  width: 320px;
+  margin: auto;
+  padding: 25px;
 }
