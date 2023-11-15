@@ -2,7 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* background-color: #252b42; */
+  background-color: #252b42;
+  color: #fff;
   
 }
 
@@ -13,8 +14,11 @@
 .main-header-container {
   width: 100%;
   background-color: #252b42;
-  height: 90vh;
   color: #fff;
+  display: grid;
+  grid-template-rows: 32px 150px 158px 90px 42px 42px 416px;
+  row-gap: 10px;
+  text-align: center;
 }
 
 .header-wrapper {
@@ -22,9 +26,8 @@
   justify-content: space-between;
   width: 100%;
   background-color: #252b42;
-  height: 30px;
   padding: 25px;
-
+  line-height: 10px;
 }
 
 .brandname {
@@ -41,13 +44,74 @@
 
 .hppc-wrapper {
   text-align: center;
-  margin: 10px;
+  background-color: #252b42;
 }
 
 .header-txt {
   text-align: center;
-  display: grid;
-  grid-template-rows: 15vh 15vh 3vh 5vh 2vh;
-  row-gap: 10px;
   width: 100%;
+}
+
+.get-quote {
+  border: none;
+  background-color: #23A6F0;
+  border-radius: 10px;
+  width: 185px;
+  height: 42px;
+  padding: 10px, 36px, 10px, 36px;
+  border-radius: 37px;
+  gap: 20px;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.learn-more {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  width: 125px;
+  height: 30px;
+}
+
+.features-4 {
+  height: 416px;
+  width: 100%;
+  text-align: center;
+  display: grid;
+  padding: 20px;
+}
+
+.feature4-container1 {
+  gap: 10px;
+}
+
+.txt-h2 {
+  padding-bottom: 20px;
+}
+
+.feature4-container2 {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  row-gap: 10px;
+  /* width: 320px; */
+  
+}
+
+.feature4-container3 {
+  display: flex;
+  flex-flow:column;
+  gap: 5px;
+}
+
+.resizer1 {
+  /* background-color: #e6e6e6; */
+  display: inline-flex;
+  gap: 50px;
+}
+
+.blue-resizer {
+  position: relative;
+  width: 40px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #23A6F0;
 }
