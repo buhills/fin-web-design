@@ -13,22 +13,25 @@
 }
 
 .main-header-container {
-  width: 100%;
+  width: 320px;
   background-color: #252b42;
   color: #fff;
   display: grid;
   grid-template-rows: 32px 150px 158px 90px 42px 42px 416px;
   row-gap: 10px;
   text-align: center;
+  margin: auto;
 }
 
 .header-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 320px;
+  color: #fff;
   background-color: #252b42;
   padding: 25px;
   line-height: 10px;
+  margin: auto;
 }
 
 .brandname {
@@ -45,12 +48,22 @@
 
 .hppc-wrapper {
   text-align: center;
-  background-color: #252b42;
+  margin-top: 15px;
 }
 
 .header-txt {
   text-align: center;
   width: 320;
+}
+
+.header-h4 {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 15px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding: 15px;
 }
 
 .get-quote {
@@ -80,6 +93,12 @@
   color: #fff;
 }
 
+iframe {
+  width: 320px; 
+  height: 320px;
+  margin: auto;
+}
+
 .features-4 {
   color: #fff;
   margin: auto;
@@ -104,10 +123,14 @@
 
 }
 
-.txt-p2 {
-  font-size: small;
+.txt-p2 { 
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 15px;
+  letter-spacing: 0.2px;
   text-align: left;
-  padding-bottom: 10px;
+  padding: 3px;
 }
 
 .feature4-container2 {
@@ -163,9 +186,13 @@
 }
 
 .txt-p22 {
-  font-size: small;
-  padding-bottom: 10px;
-  padding-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 15px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding: 15px;
 }
 
 .card-row2 {
@@ -237,12 +264,12 @@
 
 .faq-p {
   font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 12px;
+  font-weight: 200;
   line-height: 15px;
   letter-spacing: 0.2px;
   text-align: center;
-  padding-bottom: 15px;
+  padding: 15px;
 }
 
 .faq1-row1 {
@@ -282,7 +309,7 @@
 
 .pricing-3 {
   background-color: #252b42;
-  height: 1824px;
+  height: 1624px;
   width: 320px;
   margin: auto;
   padding: 25px;
@@ -291,7 +318,7 @@
 
 .pricing-wrapper {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
 }
 
 .pricing-3-row1 {
@@ -338,11 +365,11 @@
   height: 450px;
   text-align: center;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 .per-month {
   display: inline-flex;
-  /* line-height: px; */
   text-align: center;
   margin: auto;
 }
@@ -377,48 +404,69 @@
 
 .amount {
   font-size: xx-large;
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.pricing-style1 {
+.pricing-style2 {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   background-color: #23A6F0;
-  width: 260px;
-  height: 560px;
+  height: 410px;
   text-align: center;
   margin: auto;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.standard-h3 {
+margin-top: 30px;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.1px;
+text-align: center;
+}
+
+.features-list {
+  padding-bottom: 20px;
+}
+
+.feature-item {
+  display: flex;
+  justify-content:space-evenly;
+ /* grid-template-rows: repeat(5, 1fr); */
+  row-gap: 10px;
+  text-align: center;
+
+  /* gap: 15px; */
+  /* row-gap: 5px; */
+ 
+}
+
+.green-tick {
+  background-color: #096a09;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  line-height: 10px;
+}
+
+.green-brown {
+  background-color: rgb(232, 141, 141);
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  line-height: 10px;
+}
+
+.app-by-hand {
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.1px;
+text-align: center;
+
 }
 .free-try1 {
   background-color: #fff;
@@ -430,37 +478,46 @@
   color: #000;
 }
 
-.pricing-style2 {
-  display: grid;
-  grid-template-rows: repeat(6, 1fr);
-  background-color: #fff;
-  width: 260px;
-  height: 456px;
-  text-align: center;
-  margin: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer-1 {
   background-color: #252b42;
-  height: 300px;
+  height: 420px;
   width: 320px;
   margin: auto;
-  padding: 25px;
+  padding: 45px;
+}
+
+.getituch {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+
+.col-md-3 {
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.social-media {
+  color: #23A6F0;
+  word-spacing: 20px;
+  padding-top: 10px;
+  font-weight: 500px;
+}
+
+.col-md-31 {
+  color: #fff;
+  gap: 10px;
+}
+
+.made-by {
+  color: #fff;
+  font-size: small;
+  text-align: center;
+}
+
+.col-smal {
+  font-size: x-small;
 }
