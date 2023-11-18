@@ -61,7 +61,6 @@
 .get-quote {
   border: none;
   background-color: #23a6f0;
-  border-radius: 10px;
   width: 185px;
   height: 42px;
   padding: 10px, 36px;
@@ -169,7 +168,6 @@ iframe {
 }
 
 .txt-h22 {
-  padding-bottom: 5px;
   font-size: 40px;
   padding-bottom: 20px;
 }
@@ -352,7 +350,7 @@ iframe {
 }
 
 .free {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -396,7 +394,6 @@ iframe {
 
 .standard-h3 {
   margin-top: 30px;
-  /* font-family: Montserrat; */
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
