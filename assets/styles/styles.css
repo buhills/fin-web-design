@@ -2,14 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* background-color: #252b42; */
-  /* color: #fff; */
-  
-}
-
-.body {
-  font-family: Montserrat;
-  /* background-color: #252b42; */
 }
 
 .main-header-container {
@@ -57,7 +49,7 @@
 }
 
 .header-h4 {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-size: 12px;
   font-weight: 200;
   line-height: 15px;
@@ -68,11 +60,11 @@
 
 .get-quote {
   border: none;
-  background-color: #23A6F0;
+  background-color: #23a6f0;
   border-radius: 10px;
   width: 185px;
   height: 42px;
-  padding: 10px, 36px, 10px, 36px;
+  padding: 10px, 36px;
   border-radius: 37px;
   gap: 20px;
   font-weight: 700;
@@ -94,7 +86,7 @@
 }
 
 iframe {
-  width: 320px; 
+  width: 320px;
   height: 320px;
   margin: auto;
 }
@@ -102,13 +94,12 @@ iframe {
 .features-4 {
   color: #fff;
   margin: auto;
-  height:790px;
+  height: 790px;
   width: 320px;
   display: grid;
   padding: 25px;
   text-align: center;
   background-color: #252b42;
-  /* background-color: #fff; */
 }
 
 .feature4-container1 {
@@ -118,13 +109,12 @@ iframe {
 
 .txt-h2 {
   padding-bottom: 5px;
-  font-size:40px;
+  font-size: 40px;
   text-align: left;
-
 }
 
-.txt-p2 { 
-  font-family: Montserrat;
+.txt-p2 {
+  /* font-family: Montserrat; */
   font-size: 12px;
   font-weight: 200;
   line-height: 15px;
@@ -138,12 +128,11 @@ iframe {
   grid-template-rows: repeat(6, 1fr);
   row-gap: 5px;
   color: #252b42;
-  /* background-color: #252b42; */
 }
 
 .feature4-container3 {
   display: flex;
-  flex-flow:column;
+  flex-flow: column;
   gap: 5px;
   margin-top: 5px;
   text-align: left;
@@ -166,7 +155,7 @@ iframe {
   height: 30px;
   padding: 8px;
   border-radius: 50px;
-  background-color: #23A6F0;
+  background-color: #23a6f0;
 }
 
 .testimonials {
@@ -181,12 +170,12 @@ iframe {
 
 .txt-h22 {
   padding-bottom: 5px;
-  font-size:40px;
+  font-size: 40px;
   padding-bottom: 20px;
 }
 
 .txt-p22 {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-size: 12px;
   font-weight: 200;
   line-height: 15px;
@@ -205,13 +194,9 @@ iframe {
 
 .selfie-img {
   width: 100px;
-  height:100px;
+  height: 100px;
   border-radius: 50px;
-  margin: 10px
-}
-
-.card-txt {
-  color: #000;
+  margin: 10px;
 }
 
 .card-star {
@@ -221,7 +206,7 @@ iframe {
 }
 
 .name-1 {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -229,7 +214,7 @@ iframe {
 }
 
 .name-designer {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
@@ -246,7 +231,7 @@ iframe {
 }
 
 .faq {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-size: 40px;
   font-weight: 700;
   line-height: 57px;
@@ -255,7 +240,7 @@ iframe {
 }
 
 .faq-p {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-size: 12px;
   font-weight: 200;
   line-height: 15px;
@@ -276,7 +261,7 @@ iframe {
 }
 
 .faq-h5 {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-size: 14px;
   font-weight: 200;
   line-height: 18px;
@@ -292,7 +277,7 @@ iframe {
 }
 
 .faq1-arrow {
-  color: #23A6F0;
+  color: #23a6f0;
   background-color: #fff;
   border-radius: 10px;
   padding-left: 10px;
@@ -323,7 +308,7 @@ iframe {
   color: #fff;
   width: 60px;
   height: 60px;
-  background-color: #23A6F0;
+  background-color: #23a6f0;
   border-radius: 50px;
   padding: 15px;
   font-size: xx-large;
@@ -331,7 +316,7 @@ iframe {
 }
 
 .pricing-h2 {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-size: 40px;
   font-weight: 500;
   line-height: 57px;
@@ -340,7 +325,7 @@ iframe {
 }
 
 .pricing-p {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-size: 12px;
   font-weight: 200;
   line-height: 15px;
@@ -376,7 +361,7 @@ iframe {
 }
 
 .app-by.hand {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
@@ -385,7 +370,7 @@ iframe {
 }
 
 .free-try {
-  background-color: #23A6F0;
+  background-color: #23a6f0;
   border: none;
   width: 260px;
   height: 45px;
@@ -401,7 +386,7 @@ iframe {
 .pricing-style2 {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
-  background-color: #23A6F0;
+  background-color: #23a6f0;
   height: 410px;
   text-align: center;
   margin: auto;
@@ -410,13 +395,13 @@ iframe {
 }
 
 .standard-h3 {
-margin-top: 30px;
-font-family: Montserrat;
-font-size: 24px;
-font-weight: 700;
-line-height: 32px;
-letter-spacing: 0.1px;
-text-align: center;
+  margin-top: 30px;
+  /* font-family: Montserrat; */
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-align: center;
 }
 
 .features-list {
@@ -425,14 +410,9 @@ text-align: center;
 
 .feature-item {
   display: flex;
-  justify-content:space-evenly;
- /* grid-template-rows: repeat(5, 1fr); */
+  justify-content: space-evenly;
   row-gap: 10px;
   text-align: center;
-
-  /* gap: 15px; */
-  /* row-gap: 5px; */
- 
 }
 
 .green-tick {
@@ -444,7 +424,7 @@ text-align: center;
 }
 
 .green-brown {
-  background-color: rgb(232, 141, 141);
+  background-color: #e88d8d;
   border-radius: 50px;
   width: 20px;
   height: 20px;
@@ -452,14 +432,14 @@ text-align: center;
 }
 
 .app-by-hand {
-font-family: Montserrat;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0.1px;
-text-align: center;
-
+  /* font-family: Montserrat; */
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
 }
+
 .free-try1 {
   background-color: #fff;
   border: none;
@@ -479,7 +459,7 @@ text-align: center;
 }
 
 .getituch {
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -493,7 +473,7 @@ text-align: center;
 }
 
 .social-media {
-  color: #23A6F0;
+  color: #23a6f0;
   word-spacing: 20px;
   padding-top: 10px;
   font-weight: 500px;
